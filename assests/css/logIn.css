@@ -27,14 +27,8 @@ a{
 .form-control{
         vertical-align: center;
         width: 350px;
+
     }
-
-.title{
-    text-underline-position: under;
-    font-family: serif;
-}
-.btn-block{
-    background-color: #292B96;
-    font-family: serif;
-
-}
+    .btn-sm{
+        background-color: #292B96;
+    }
