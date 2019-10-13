@@ -5,10 +5,8 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
-    align-items: flex-end;
     text-align: right;
-    letter-spacing: 0.6px;
+    
     }
     .btn{
         color:white;
@@ -41,9 +39,8 @@
     .price-card li::before {
         content: "\2022";
         color: red;
-        padding-right: 3px;
+        padding-right: 15px;
     }
-
       .price-card li {
         font-weight: bold;
         text-align: left;
@@ -52,6 +49,7 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border: none;
       }
+      
       
      
       
