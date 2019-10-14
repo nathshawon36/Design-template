@@ -48,8 +48,15 @@
       .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border: none;
-      }
-      
-      
+      }  
+    .most-choosen-style{
+        display: inline-block;
+        padding: 12px 12px;
+        background: #0000ff;
+        margin-top: 0px!important;
+        margin-bottom: 0px !important;
+        color: #fff;
+        border: 1px solid #0000ff;
+    }
      
       
