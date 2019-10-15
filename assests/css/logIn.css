@@ -28,7 +28,22 @@ a{
         vertical-align: center;
         width: 350px;
     }
-    .btn-block{
-      font-family: sans-serif;
+.btn-block{
+        font-family: 'Sintony', sans-serif;
     }
+#button1{
+    background-color: #0077B5; 
+    font-size: 17px;
+    border-radius: 0px 0px 0px 0px;
+}
+#button2{
+    background-color: #3B5998; 
+    font-size: 17px;
+    border-radius: 0px 0px 0px 0px;
+}
+#button3{
+    background-color:  #5589EE; 
+    font-size: 17px;
+    border-radius: 0px 0px 0px 0px;
+}
     

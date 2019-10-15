@@ -1,5 +1,6 @@
-ul{
+ ul{
     display: inline-block;
+    text-align: center;
 }
 .btn{
     color:white;
@@ -27,29 +28,27 @@ align-items: flex-end;
 text-align: right;
 letter-spacing: 0.6px;
 }
-.about{
-    text-underline-position: under;
+label.ques{
+    font-family: 'Roboto', sans-serif; 
+    line-height: 28px;
+    color: #3B5998;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
 }
-h4.about{
-    font-family: Libre Baskerville;
-    font-size: 36px;
-    line-height: 30px;
+label.radio2{
+    padding-bottom:10px;
 }
-.tab{
-    background-color: #FFFFFF;; 
-    border-left:5px !important;
-    border-right:5px !important; 
-     
+input.texting{
+    border-style: none;
+    border-bottom:  2px solid #5456AB;
+    width: 100%;
 }
-.text{
-    padding: 60px 60px; 
-    text-align: justify;
-    color:black;
-
-}
-#main-bar{
-    background: rgba(41, 44, 150, 0.8);
-    padding-left:300px;
-    padding-right:300px;
+p.asp{
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+line-height: 28px;
 }
 
