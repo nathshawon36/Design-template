@@ -1,4 +1,4 @@
- a{
+#navbarSupportedContent ul li a{
     font-family: sans-serif;
     font-style: none;
     color: #292B96;
@@ -39,13 +39,13 @@
     .price-card li::before {
         content: "\2022";
         color: red;
-        padding-right: 15px;
+        padding-right: 30px;
     }
-      .price-card li {
+   .price-card li {
         font-weight: bold;
         text-align: left;
       }
-      .card {
+    .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border: none;
       }  

@@ -15,7 +15,7 @@ ul{
     line-height: 1.42857;
     background-color: red;
 }
-a{
+#navbarSupportedContent ul li a{
 font-family: sans-serif;
 font-style: none;
 color: #292B96;
@@ -32,24 +32,24 @@ letter-spacing: 0.6px;
 }
 h4.about{
     font-family: Libre Baskerville;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 30px;
 }
 .tab{
     background-color: #FFFFFF;; 
-    border-left:5px !important;
-    border-right:5px !important; 
-     
+       
 }
 .text{
-    padding: 60px 60px; 
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:50px;
+    padding-bottom:50px;
     text-align: justify;
     color:black;
 
 }
 #main-bar{
-    background: rgba(41, 44, 150, 0.8);
-    padding-left:300px;
-    padding-right:300px;
+    background: rgba(41, 44, 150, 0.8);  
 }
+
 

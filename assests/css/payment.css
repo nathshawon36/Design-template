@@ -39,13 +39,17 @@ a{
 
 }
 img.logo-style{
-    margin-left:50px;
+    margin-left: 10px;
+   padding:0px 1px;
 }
 input#name{
     width: 30%;
     padding-left:10px;
-     margin-bottom:15px; 
+    
      margin-left:60px; 
-     margin-top:40px;
+     margin-top:5px;
      margin-bottom:15px;
+}
+#button{
+    width: 160px;
 }
