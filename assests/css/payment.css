@@ -12,17 +12,15 @@
     line-height: 1.42857;
     background-color: red;
 }
-a{
+#navbarSupportedContent ul li a{
     font-family: sans-serif;
     font-style: none;
     color: #292B96;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
-    align-items: flex-end;
     text-align: right;
-    letter-spacing: 0.6px;
+    
     }
 .form-control{
         vertical-align: center;
@@ -42,11 +40,10 @@ img.logo-style{
     margin-left: 10px;
    padding:0px 1px;
 }
-input#name{
+input#name1{
     width: 30%;
     padding-left:10px;
-    
-     margin-left:60px; 
+     margin-left:90px; 
      margin-top:5px;
      margin-bottom:15px;
 }

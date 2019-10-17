@@ -1,6 +1,14 @@
-new WOW().init();
 
-//$('.dropdown-toggle').on('mouseover', function(){
-////    alert('ok');
-// $(".dropdown-menu").addClass("wow slideInDown show");
-//});
+$(function () {
+    $('#datepicker').datepicker({
+        format: "dd/mm/yyyy",
+        autoclose: true,
+        todayHighlight: true,
+        showOtherMonths: true,
+        selectOtherMonths: true,
+        autoclose: true,
+        changeMonth: true,
+     changeYear: true,
+        orientation: "button"
+    });
+});

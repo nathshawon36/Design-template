@@ -15,18 +15,16 @@ ul{
     line-height: 1.42857;
     background-color: red;
 }
-a#navbarSupportedContent ul li a{
-font-family: sans-serif;
-font-style: none;
-color: #292B96;
-font-weight: bold;
-font-size: 14px;
-line-height: 18px;
-display: flex;
-align-items: flex-end;
-text-align: right;
-letter-spacing: 0.6px;
-}
+#navbarSupportedContent ul li a{
+    font-family: sans-serif;
+    font-style: none;
+    color: #292B96;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    
+    }
 label.ques{
     font-family: 'Roboto', sans-serif; 
     line-height: 28px;
