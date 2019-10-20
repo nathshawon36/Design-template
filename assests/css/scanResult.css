@@ -1,3 +1,48 @@
+#main-bar{
+    background: rgba(41, 44, 150, 0.8);  
+}
+#crdsty{
+    border-radius: 0px 0px 0px 0px;
+}
+ul{
+    display: inline-block;
+}
+.btn{
+    color:white;
+    background: #FF1303;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: red;
+}
+.btn-circle1 {
+    width: 20px;
+    height: 20px;
+    padding: 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration-color:whitesmoke;
+    background-color: #28AD2B; 
+}
+button#default1{
+  border-radius: 0px 0px 0px 0px;
+  background-color: rgba(41, 44, 150, 0.73);
+}
+button#default2{
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 165px;
+  }
+  .btngrp{
+      padding-left: 350px;
+  }
 #navbarSupportedContent ul li a{
     font-family: sans-serif;
     font-style: none;
@@ -8,54 +53,45 @@
     text-align: right;
     
     }
-    .btn{
-        color:white;
-        background: #FF1303;
-    }
-    .btn-circle {
-        width: 30px;
-        height: 30px;
-        padding: 6px 0px;
-        border-radius: 15px;
-        text-align: center;
-        font-size: 12px;
-        line-height: 1.42857;
-        background-color: red;
-    }
 
-    .accordion {
-        background-color: #8fb7a5;
-        color: #FFF;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        text-align: left;
-        border: 1px solid white;
-        outline: none;
-        transition: 0.4s;
-        font: 20px Lato, sans-serif;
-    }
-    .active, .accordion:hover {
-        background-color: #527e6a;
-    }
-    .panel {
-        padding: 0 18px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-    }
-    
-    p{
-        font: 16px Lato, sans-serif; 
-    }
-    .accordion:after {
-        content: '\02795'; /* Unicode character for "plus" sign (+) */
-        font-size: 13px;
-        float: right;
-        margin-left: 5px;
-    }
-    
-    .active:after {
-        content: "\2796"; /* Unicode character for "minus" sign (-) */
-    }
+.accordion {
+    background-color: #5456AB;
+    color: #FFF;
+    cursor: pointer;  
+    text-align: left;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.4s;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    margin:0px 15px;
+    height:44px;
+    width: 350px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+p.text{
+    font-family: 'Quicksand', sans-serif; 
+}
+button i#btnsty{
+    color:  #30CC34;
+}
+button i#btnsty1{
+    color:  #CC3030;
+}
+p i#btnsty{
+    color: #30CC34; 
+}
+p i#btnsty1{
+    color:  #CC3030;
+}
+
+
+
