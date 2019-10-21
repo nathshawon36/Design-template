@@ -1,8 +1,12 @@
 #main-bar{
     background: rgba(41, 44, 150, 0.8);  
 }
-#crdsty{
+#crdsty1{
     border-radius: 0px 0px 0px 0px;
+    background: black;
+}
+#crdsty2{
+    border-radius: 0px 0px 0px 0px;   
 }
 ul{
     display: inline-block;
@@ -40,7 +44,7 @@ button#default2{
     background-color: rgba(0, 0, 0, 0.37);
     width: 165px;
   }
-  .btngrp{
+.btngrp{
       padding-left: 350px;
   }
 #navbarSupportedContent ul li a{
@@ -68,6 +72,16 @@ button#default2{
     height:44px;
     width: 350px;
 }
+.accordion:after {
+    content: '\22C0'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\22C1' ; /* Unicode character for "minus" sign (-) */
+}
 
 .panel {
     padding: 0 18px;
@@ -92,6 +106,143 @@ p i#btnsty{
 p i#btnsty1{
     color:  #CC3030;
 }
+
+/*   style for progress bar */
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background:none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+  
+    font-size: 24px;
+    color: #F5EDA6;;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+
+
 
 
 
