@@ -25,4 +25,20 @@ ul{
     text-align: right;
     
     }
- 
+
+    .about{
+        text-underline-position: under;
+    }
+    h4.about{
+        font-family: Libre Baskerville;
+        font-size: 32px;
+        line-height: 30px;
+    }
+    
+    #main-bar{
+        background: rgba(41, 44, 150, 0.8);  
+    }
+    .btn-block{
+        background-color: #292B96;
+        font-family: serif;
+    }
