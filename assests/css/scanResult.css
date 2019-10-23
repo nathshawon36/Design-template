@@ -54,9 +54,8 @@ button#default2{
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    text-align: right;
-    
-    }
+    text-align: right;  
+}
 
 .accordion {
     background-color: #5456AB;
@@ -73,14 +72,15 @@ button#default2{
     width: 350px;
 }
 .accordion:after {
-    content: '\22C0'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    content: "\f01a";
+    font-family: FontAwesome; /* Unicode character for "plus" sign (+) */
+   size:2px;
     float: right;
     margin-left: 5px;
 }
 
 .active:after {
-    content: '\22C1' ; /* Unicode character for "minus" sign (-) */
+    content: "\f01b"; /* Unicode character for "minus" sign (-) */
 }
 
 .panel {
