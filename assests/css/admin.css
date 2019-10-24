@@ -23,6 +23,39 @@ ul{
     font-size: 14px;
     line-height: 18px;
     text-align: right;
+    margin-top:20px;
+}
+button.check_button{
+    background-color:  #30CC34;
+    border-radius: 0px 0px 0px 0px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;  
+}
+a.check_button{
+    background-color:  #30CC34;
+    border-radius: 0px 0px 0px 0px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px; 
+
+}
+i.fa-lg{
+    color: red;
+  
+}
+span{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+color: rgba(31, 32, 65, 0.75);
+}
+.admin_area{
+    margin-top:40px;
 }
 
 #main-bar{
@@ -37,32 +70,42 @@ ul{
 .heading{
     margin-bottom: 30px;
 }
+
 input.texting{
-    background-color: #C4C4C4;font-size: 15px;width:300px;height: 100px;padding: 20px;
+    width: 80%; 
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 15%;
+    padding: 10%;
+    background: #C4C4C4;
+}
+.image_style{
+    margin-top: 5%;
+}
+.admin_section__1{
+    margin-top:5%;
 }
 
- #main{
-    width: 500px;padding-left: 10px;margin: auto; height: 100px;margin-top: 10px;
- }
- #sec{
-    height:100px; border-radius:0px 0px 0px 0px;background-color: #C4C4C4;
- }
- .accordion {
-  
-    color: #FFF;
-    cursor: pointer;  
-
-    border: 1px solid white;
-    outline: none;
-    transition: 0.4s;
+/* scrollbar */
+.scrollbar{
  
-   
-}
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  
+ }
+ .fa {
+     color: white;
+ }
+ ::-webkit-scrollbar{
+     width: 10px;
+  
+ }
+ ::-webkit-scrollbar-track{
+     border-radius: 10px;
+ box-shadow: inset 0 0 6px gray ;
+ }
+ ::-webkit-scrollbar-thumb{
+     border-radius: 10px;
+ background: black;
+ }
