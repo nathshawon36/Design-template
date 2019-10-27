@@ -6,8 +6,12 @@
     background: black;
 }
 #crdsty2{
-    border-radius: 0px 0px 0px 0px;   
+    border-radius: 0px 0px 0px 0px;     
 }
+.sty1{
+    padding: 0px;
+}
+
 ul{
     display: inline-block;
 }
@@ -45,7 +49,7 @@ button#default2{
     width: 165px;
   }
 .btngrp{
-      padding-left: 350px;
+      padding-left: 25px;
   }
 #navbarSupportedContent ul li a{
     font-family: sans-serif;

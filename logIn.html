@@ -19,68 +19,77 @@
 </head>
 <body>
     <!---Header--->
-    <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-
-                    <img src="assests/images/images.ico">
-                </div>
-                <div class="col-lg-9">
-                    <ul class="nav justify-content-end" style="text-align: center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">HOME</a>
+      <!-- Header Start -->
+      <header class="hello">
+            <nav id="header" class="navbar navbar-expand-md navbar-light bg-white">
+              <div class="container">
+            
+                <a class="navbar-brand" href="#">
+                  <img src="assests/images/images.ico" alt="" />
+                </a>
+           
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="#">CONTACT</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#">LOGIN/SIGNUP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SCAN</a>
-                        </li>
-                    </ul>
+                          </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">SCAN</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <!---Main Menu-->
-    <div class="container">
-
-        <div class="row">
-
-            <div class="container text-light" style=" background:rgba(41, 44, 150, 0.8);">
-                <p class="m-1">&nbsp;</p>
-               
-
-                <div class="card-group col-md-10" style="margin: auto;"> 
-                        <div class="card" style="border-radius: 0px 0px 0px 0px;">
-                           <div class="card-body" style="margin-left:20px">
-                               <label for="name" style="font-family: Sintony; font-weight: bold; color: #2B2A96; font-size:24px;"> Log In</label><br>
-                                <input type="text" id="name" placeholder="Joe" style="width: 70%;padding-left:10px;margin-bottom:15px">
-                                <input type="text" id="name" placeholder="*******" style="margin-top: 10px; width: 70%;padding-left:10px;margin-bottom:15px">
-                
-                                <a href="#" class="btn btn-md" style="margin-top: 10px; background: #2B2A96; width:70%; border-radius: 0px 0px 0px 0px;" >Log In</a>
+              </div>
+            </nav>
+          </header>
+    
+        <!---Main Menu-->
+        <div class="container">
+    
+            <div class="row">
+    
+                <div class="container text-light" style=" background:rgba(41, 44, 150, 0.8);">
+                    <p class="m-4">&nbsp;</p>
+                    
+    
+                    <div class="card-group col-sm-10 " id="crdgrp"> 
+    
+                        <!--card 1st-->
+                            <div class="card"  id="card_one">
+                               <div class="card-body crd_one">
+                                   <label for="name" class="texting"> Log In</label><br>
+                                    <input type="text" id="name" placeholder="Joe" style="width: 60%;padding-left:10px;margin-bottom:10px">
+                                    <input type="text" id="name" placeholder="*******" style="margin-top: 10px; width: 60%;padding-left:10px;margin-bottom:10px ">
+                                  
+                    
+                                    <a href="#" class="btn btn-info btn-md" style="margin-top: 20px; background: #2B2A96; width:60%; border-radius: 0px 0px 0px 0px; font-family: 'Sintony', sans-serif; " >Log In</a>
+                                </div>
                             </div>
-                        </div>
-                        
-                        
-                        <div class="card" style="border-radius: 0px 0px 0px 0px;">
-                           <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-bottom:50px;">
-                                <label for="name" style="font-family: Sintony; font-weight: bold; color: #2B2A96;"></label><br>
-                                <a href="#" class="btn btn-lg btn-block" id="button1">SIGN IN WITH LINKEDIN &nbsp &nbsp <i class="fa fa-linkedin text-light" style="font-size:24px;"></i></a><br>
-                                <a href="#" class="btn btn-lg btn-block" id="button2">SIGN IN WITH FACEBOOK &nbsp &nbsp<i class="fa fa-facebook text-light" style="font-size:24px;"></i></a><br>
-                                <a href="#" class="btn btn-lg btn-block"  id="button3"><i class="fa fa-google text-light" style="font-size:24px;"></i> &nbsp &nbsp SIGN IN WITH GOOGLE</a>
-                
+                            
+                            <!--card 2nd-->
+                            <div class="card"  style="border-radius: 0px 0px 0px 0px;">
+                               <div class="card-body" style="margin-left: 50px; margin-right: 5px; margin-bottom:50px">
+                                    <label for="name" style="font-family: Sintony; font-weight: bold; color: #2B2A96;"></label><br>
+                                    <a href="#" class="btn btn-lg btn-block" id="button1">SIGN IN WITH LINKEDIN &nbsp <i class="fa fa-linkedin text-light" style="font-size:24px;"></i></a><br>
+                                    <a href="#" class="btn btn-lg btn-block" id="button2">SIGN IN WITH FACEBOOK &nbsp <i class="fa fa-facebook text-light" style="font-size:24px;"></i></a><br>
+                                    <a href="#" class="btn btn-lg btn-block" id="button3"><i class="fa fa-google text-light" style="font-size:24px;"></i> &nbsp SIGN IN WITH GOOGLE</a>
+                    
+                                </div>
                             </div>
+                            
                         </div>
-                        
-                    </div>
+    
 
 
                 <p class="m-1">&nbsp;</p>
@@ -89,7 +98,7 @@
                     <div class="col-sm-5"></div>
                     <div class="col-sm-2">
                         <div class=" my-4" id="form">
-                            <button class="btn btn-md btn-block" type="submit" style="background-color:rgba(41, 44, 150, 0.8) ; border-radius: 0px 0px 0px 0px; padding: 10px 10px; ">
+                            <button class="btn btn-lg " type="submit" style="background-color:rgba(41, 44, 150, 0.8) ; border-radius: 0px 0px 0px 0px; padding: 10px 10px;margin-left:120px ">
                                 <h5 style="margin:auto;
                                 font-style: normal;
                                 font-size: 15px;

@@ -1,17 +1,3 @@
-.btn{
-    color:white;
-    background: #FF1303;
-}
-.btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
-   
-}
 #navbarSupportedContent ul li a{
     font-family: sans-serif;
     font-style: none;
@@ -19,18 +5,53 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
-    align-items: flex-end;
     text-align: right;
-    letter-spacing: 0.6px;
+    
     }
+    .btn{
+        color:white;
+        background: #FF1303;
+    }
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        background-color: red;
+    }
+.nav-link{
+        list-style: none;
+    }
+/*header style end*/
+/* card group style*/
+#crdgrp{
+    margin: auto;
+}
+#card_one{
+   border-radius: 0px 0px 0px 0px;
+}
+.crd_one{
+  margin-left:100px;
+}
+.texting{
+ font-family: Sintony; 
+font-weight: bold; 
+color: #2B2A96; 
+font-size:24px; 
+font-family: 'Sintony', sans-serif;
+
+}
 .form-control{
         vertical-align: center;
         width: 350px;
-    }
+}
 .btn-block{
-        font-family: 'Sintony', sans-serif;
-    }
+    font-family: 'Sintony', sans-serif;
+}
+
 #button1{
     background-color: #0077B5; 
     font-size: 17px;
@@ -46,4 +67,5 @@
     font-size: 17px;
     border-radius: 0px 0px 0px 0px;
 }
+
     

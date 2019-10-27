@@ -21,11 +21,14 @@ span{
 ul{
     display: inline-block;
 }
-.btn{
-    color:white;
+
+input.text_area{
+      width:200px;
 }
-.btn-default{
- color: black;
+.btn_grp{
+    margin-bottom:20px;
+    border-radius: 0px 0px 0px 0px;
+  
 }
 .btn-circle {
     width: 30px;
@@ -58,6 +61,14 @@ ul{
     text-align: right;
     
     }
+.social_icon{
+    color:white;
+}
+#crdsty1{
+    height: 300px;
+    padding-left: 30px;
+   
+}
 
 /*   style for progress bar */
 
