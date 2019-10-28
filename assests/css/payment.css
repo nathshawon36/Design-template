@@ -19,36 +19,64 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    text-align: right;
-    
-    }
-.form-control{
-        vertical-align: center;
-        width: 350px;
-    }
-
-.title{
-    text-underline-position: under;
-    font-family: serif;
+    text-align: right;   
 }
-.btn-block{
-    background-color: #292B96;
-    font-family: serif;
+
+/*card style */
+.menu{
+    background-color:#292B98;
+}
+.main_menu{
+    margin:auto;
+    border-radius: 0px 0px 0px 0px;
+}
+.main_menu_sub{
+    height: 500px;
 
 }
-img.logo-style{
-    margin-left: 10px;
-   padding:0px 1px;
-   width: 60px;
-   height: 40px;
+.img_style{
+    padding-left:20px ;
+    margin-top: 60px;
+}
+.card-title{
+color: #292B98;
+font-family: Sintony;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 0.6px;
+}
+.logo-style{
+    height: 40px;
+    width: 60px;
+}
+.input_field{
+  margin-top: 50px;
+  padding-left:80px ;
 }
 input#name1{
-    width: 30%;
-    padding-left:10px;
-     margin-left:90px; 
-     margin-top:5px;
-     margin-bottom:15px;
+font-family:Sintony;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+align-items: center;
+letter-spacing: 0.4px;
+color: rgba(0, 0, 0, 0.41);
+margin-top: 20px;
+padding-left: 10px;
 }
-#button{
-    width: 160px;
+.btn_grp{
+    margin-left: 70px;
+}
+a.btn_sty{
+    margin-top: 30px;
+    border-radius: 0px 0px 0px 0px;
+    width: 70%;
+    background: rgba(41, 44, 150, 0.73);
+    font-family: Sintony;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+letter-spacing: 0.4px;
+
 }
