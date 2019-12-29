@@ -11,4 +11,4 @@
 !['name'](assests/images/starterPage.png)
 
 # Phone View: Some pages are given below-(planning,user,admin)
-!['planning'](assests/images/user.png)
+!['planning'](assests/images/ss1.PNG)           !['planning'](assests/images/ss4.PNG)
